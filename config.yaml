@@ -1,0 +1,14 @@
+image_paths: "path/to/images"
+text_paths: "path/to/texts"
+label_paths: "path/to/labels"
+image_model_name: 'resnet18'
+new_image_path: "path/to/new/images"
+new_text_path: "path/to/new/text"
+image_output_features: 512
+text_vocab_size: 10000
+embedding_dim: 128
+lstm_hidden_size: 256
+text_output_features: 256
+num_classes: 10
+batch_size: 32
+epochs: 10
